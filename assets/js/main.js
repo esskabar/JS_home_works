@@ -6,12 +6,21 @@ console.log(1111);
     var array4 = [1,undefined,3,5,-3];
     var array5 = [1,NaN,3,5,-3];
 
-    var arrayF = [array1,array2,array3,array4,array5]
+
 
 
 function getMaxOfArray(numArray) {
-    return Math.max.apply( numArray);
+    return Math.max.apply(null, numArray);
 }
 
-getMaxOfArray(arrayF);
-console.log(getMaxOfArray(arrayF));
+function getMinOfArray(numArray) {
+    return Math.min.apply(null, numArray);
+}
+
+
+var index, len;
+var sumarray = [array1,array2,array3,array4,array5];
+for (index = 0, len = sumarray.length; index < len; ++index) {
+    console.log(sumarray[index]);
+
+}

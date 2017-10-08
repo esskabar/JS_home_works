@@ -5,3 +5,13 @@ console.log(1111);
     var array3 = [1,7,3];
     var array4 = [1,undefined,3,5,-3];
     var array5 = [1,NaN,3,5,-3];
+
+    var arrayF = [array1,array2,array3,array4,array5]
+
+
+function getMaxOfArray(numArray) {
+    return Math.max.apply( numArray);
+}
+
+getMaxOfArray(arrayF);
+console.log(getMaxOfArray(arrayF));

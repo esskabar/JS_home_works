@@ -14,7 +14,7 @@ function getMinOfArray(numArray) {
         array4 = [1,undefined,3,5,-3];
         array5 = [1,NaN,3,5,-3];
 
- 
+
 
     function arrayCheck(count){
         var max = Number.NEGATIVE_INFINITY ;

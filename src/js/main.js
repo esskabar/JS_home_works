@@ -16,9 +16,10 @@
         for(var i = 0; i < count.length; i++){
 
             if( typeof (count[i]) !== 'undefined' && !isNaN(count[i])){
+
                 if(max < count[i]) max = count[i];
                 if(min > count[i]) min = count[i];
-                sum = sum + count[i];
+                sum = sum + parseInt(count[i]);
             }
 
         }

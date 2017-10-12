@@ -1,18 +1,10 @@
 
-function getMaxOfArray(numArray) {
-    return Math.max.apply(null, numArray);
-}
-
-function getMinOfArray(numArray) {
-    return Math.min.apply(null, numArray);
-}
-
-
     var array1 = [3,0,-5,1,44,-12,3,0,0,1,2,-3,-3,2,1,4,-2-3-1];
         array2 = [-1,-8,-2];
         array3 = [1,7,3];
         array4 = [1,undefined,3,5,-3];
         array5 = [1,NaN,3,5,-3];
+        array6 =  ['erefs',5342,-653,'2'];
 
 
 
@@ -28,6 +20,7 @@ function getMinOfArray(numArray) {
                 if(min > count[i]) min = count[i];
                 sum = sum + count[i];
             }
+
         }
 
         return {
@@ -43,4 +36,5 @@ function getMinOfArray(numArray) {
     console.log(arrayCheck(array3));
     console.log(arrayCheck(array4));
     console.log(arrayCheck(array5));
+    console.log(arrayCheck(array6));
 

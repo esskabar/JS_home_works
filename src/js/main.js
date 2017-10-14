@@ -38,11 +38,3 @@
     console.log(arrayCheck(array4));
     console.log(arrayCheck(array5));
     console.log(arrayCheck(array6));
-
-    //var length = array1.length;
-    //
-    //for (i = 0; i < length ; i++){
-    //    if(){
-    //
-    //    }
-    //}

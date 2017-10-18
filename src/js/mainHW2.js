@@ -16,6 +16,7 @@
       });
 
       for (i = array.length - 1; i > step; i--) {
+           // console.log(step,i);
          if( array[i] > right) {
              right = array[i];
          }  else{
